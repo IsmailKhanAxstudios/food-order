@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button {
+  @apply bg-slate-800 hover:bg-slate-950 text-white font-bold py-2 px-4 rounded;
+}
+
+/* .customClass {
+  @apply bg-black;
+} */
+/* 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 200px;
+}
+.nav-items > ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-items > ul > li {
+  padding: 10px;
+  margin: 10px;
+}
+.body {
+  font-size: 14px;
+}
+.search {
+  padding: 10px;
+}
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.res-card,
+.shimmer-card {
+  width: 200px;
+  background-color: azure;
+  padding: 5px;
+  margin: 5px;
+}
+.res-card:hover {
+  cursor: pointer;
+  border: 1px solid black;
+}
+.res-logo {
+  width: 100%;
+}
+
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.shimmer-card {
+  height: 300px;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  margin: 5px;
+}
+
+.search-container {
+  display: flex;
+  gap: 10px;
+}
+
+.card-container {
+  display: flex;
+  gap: 10px;
+
+  flex-wrap: wrap;
+}
+.card {
+  border: 1px solid #000;
+  width: 250px;
+}
+
+.user-card {
+  border: 1px solid black;
+  height: 300px;
+  width: 300px;
+}
+
+.online,
+.offline {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+.online {
+  background-color: green;
+}
+.offline {
+  background-color: red;
+} */
