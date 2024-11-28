@@ -11,3 +11,8 @@ In Terminal run this command - npm i
 run this command - npm run dev
 
 Go to localhost:3000 to see the website
+
+- Counter
+- Step
+- Increment , Decrement Button
+- Reset Button

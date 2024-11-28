@@ -15,6 +15,7 @@ import { Provider } from "react-redux";
 import Cart from "./components/Cart/Cart";
 import { ToastContainer } from "react-toastify";
 import CheckOut from "./components/CheckOut/CheckOut";
+import Counter from "./components/Counter/Counter";
 const LazyLoading = lazy(() => import("./components/LazyLoading/LazyLoading"));
 
 const AppLayout = () => {
@@ -67,7 +68,10 @@ const appRoutes = createBrowserRouter([
         path: "checkout",
         element: <CheckOut />,
       },
-
+      {
+        path: "counter",
+        element: <Counter />,
+      },
       {
         path: "/lazyload",
         element: (
